@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding:0;
+}
+
+.carousel {
+    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 750px;
+  margin:5% auto;
+  position: relative;
+}
+
+.back,
+.forward {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  background-color: aqua;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin-top: -35%;
+}
+
+.images {
+  display: flex;
+  width: 100%;
+  max-width: 1280px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.item {
+  display: none;
+}
+
+.item-visible {
+  display: block;
+}
